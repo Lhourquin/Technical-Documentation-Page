@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Technichal Documentation Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <header>HTML5</header>
+            <ul>
+                <li><a class="nav-link" href="#Introduction_to_HTML5">Introduction to HTML5</a></li>
+                <li><a class="nav-link" href="#The_semantics_html">The semantics html</a></li>
+                <li><a class="nav-link" href="#Section_Elements_in_HTML5">Section Elements in HTML5</a></li>
+                <li><a class="nav-link" href="#New_semantic_elements">New semantic elements</a></li>
+                <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-doc">
+        <section id="Introduction_to_HTML5" class="main-section">
+            <header>Introduction to HTML5</header>
+            <article>
+                 <p>HTML5 is the latest evolution of the standard that defines HTML. The term represents two different concepts. It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications.
+            <p>This set is sometimes called HTML5 & friends and often shortened to just HTML5. Designed to be usable by all Open Web developers, this reference page links to numerous resources about HTML5 technologies, classified into several groups based on their function.</p>
+                <p>
+                    <ul>
+                        <li>Semantics: allowing you to describe more precisely what your content is.</li>
+                        <li>Connectivity: allowing you to communicate with the server in new and innovative ways.
+                        </li>
+                        <li>Offline and storage: allowing webpages to store data on the client-side locally and operate offline more efficiently.
+                        </li>
+                        <li>Multimedia: making video and audio first-class citizens in the Open Web.
+                        </li>
+                        <li>2D/3D graphics and effects: allowing a much more diverse range of presentation options.
+                        </li>
+                        <li>Performance and integration: providing greater speed optimization and better usage of computer hardware.
+                        </li>
+                        <li>Device access: allowing for the usage of various input and output devices.
+                        </li>
+                        <li>Styling: letting authors write more sophisticated themes.
+                        </li>
+                    </ul>
+                </p>    
+            </article>
+           
+        </section>
+        <section id="The_semantics_html" class="main-section">
+                <header>The semantics html</header>
+                <article>
+                    <p>The HTML5 specification includes several semantic elements to help organize documents. Semantic elements are specifically designed to communicate meaning to the browser, developer, reader, and any other technologies interpreting the document (e.g. voice assistants).</p>
+                    <p>For example <code>&lt;div></code> does not contain any meaning about its content but <code>&lt;figcaption></code> clearly describes the content contained.</p>
+                    <p>New semantic elements were added to HTML5 to improve the sectioning of websites. It is important for developers to not use these semantic elements other than their indicated purpose. Many accessibility tools rely on semantic HTML5 elements.</p>
+                </article>
+        </section>
+        <section id="Section_Elements_in_HTML5" class="main-section">
+                <header>Section Elements in HTML5</header>
+                <article>
+                    <p>
+                        <ul>
+                            <li>HTML Navigational  Element (<code>&lt;nav></code>) defines a section that contains navigation links that appear often on a site. You can have primary and secondary menus, but you never nest, or put a <code>&lt;nav></code> element inside a <code>&lt;nav></code> element.</li>
+                            <li>HTML Article Element (<code>&lt;article></code>) defines a piece of self-contained content. It does not refer to the main content alone and can be used for comments and widgets.</li>
+                            <li>HTML Section Element (<code>&lt;section></code>) defines a section of a document to indicate a related grouping of semantic meaning. Utilize the section element providing extra context from the parent element makes sense.</li>
+                            <li>HTML Aside Element (<code>&lt;aside></code>) defines a section that, though related to the main element, doesn't belong to the main flow, like an explanation box or an advertisement. It has its own outline, but doesn't belong to the main one.</li>
+                        </ul>
+                    </p>
+                    <h2>Other Semantic HTML elements used in Sectioning</h2>
+                    <p>
+                        <ul>
+                            <li>Body Element (<code>&lt;body></code>) defines all the content of a document. It contains all the content and HTML tags.</li>
+                            <li>HTML Header Element (<code>&lt;header></code>) defines a page which typically contains the logo, title, and navigation. The header can also be used in other semantic elements such as <code>&lt;article></code> or <code>&lt;section></code> — or section header, containing perhaps the section's heading, author name, etc. <code>&lt;article></code>, <code>&lt;section></code>, <code>&lt;aside></code>, and <code>&lt;nav></code> can have their own <code>&lt;header></code>. Despite its name, it is not necessarily positioned at the beginning of the page or section.</li>
+                            <li>HTML Footer Element (<code>&lt;footer></code>) defines a page footer which typically contains the copyright, legal notices and sometimes some links — or section footer, containing perhaps the section's publication date, license information, etc. <code>&lt;article></code>, <code>&lt;section></code>, <code>&lt;aside></code>, and <code>&lt;nav></code> can have their own <code>&lt;footer></code>. Despite its name, it is not necessarily positioned at the end of the page or section.</li>
+                        </ul>
+                    </p>
+                </article>
+        </section>
+        <section id="New_semantic_elements" class="main-section">
+                <header>New semantic elements</header>
+                <p>Beside sections, media and forms elements, there are numerous new elements, like <code>&lt;mark></code>, <code>&lt;figure></code>, <code>&lt;figcaption></code>, <code>&lt;data></code>, <code>&lt;time></code>, <code>&lt;output></code>, <code>&lt;progress></code>, or <code>&lt;meter></code> and <code>&lt;/main></code>, increasing the number of valid HTML5 elements.</p>
+        </section>
+        <section id="Conclusion" class="main-section">
+                <header>Conclusion</header>
+                <article>
+                    <p>The new semantic elements introduced in HTML5 bring the ability to describe the structure of a web document in a standard way. They bring a big advantage for people having HTML5 browsers and needing the structure to help them understand the page, for instance people needing the help of some assistive technology. These new semantic elements are simple to use and, with very few burdens, can be made to work also in non-HTML5 browsers. Therefore they should be used without restrictions.</p>
+                </article>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
