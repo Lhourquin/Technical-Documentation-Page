@@ -19,12 +19,15 @@ body{
     width:20%;
 
 }
+.header__navbar__header{
+    font-size:3rem;
+    text-align: center;
+}
 .navbar__ul{
     height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    z-index: 1;
     margin-left: 2%;
 }
 .nav-link{
@@ -57,6 +60,7 @@ body{
     padding: 2%;
 }
 .footer{
+    margin-top: 5%;
     grid-column: 2;
     width:100%;
     height:80%;
@@ -85,7 +89,7 @@ body{
     transition: all .2s ease-in-out;
 }
 .icon:hover{
-    color : whitesmoke;
+    color : greenyellow;
     transition: all .1s ease-in-out;
     transform: scale(1.09);
 }
